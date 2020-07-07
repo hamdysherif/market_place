@@ -62,6 +62,7 @@ Rails.application.configure do
 
 
   Rails.application.configure do
-    config.hosts << "market_place_api.test"
+    config.hosts << "marketplace.test"
+    config.hosts << "api.marketplace.test"
   end
 end
